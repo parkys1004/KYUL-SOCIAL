@@ -36,11 +36,11 @@ const Schedule: React.FC<ScheduleProps> = ({ onCopy }) => {
                 {/* Item 1 */}
                 <div className="flex gap-8 relative group">
                   <div className="w-16 h-16 bg-brand-dark border-4 border-brand-red rounded-full flex items-center justify-center shrink-0 z-10 font-black text-sm shadow-[0_0_15px_rgba(229,9,20,0.4)] group-hover:scale-110 transition-transform duration-300">
-                    17:00
+                    16:30
                   </div>
                   <div className="bg-white/5 p-6 rounded-2xl flex-1 border border-white/5 group-hover:bg-white/10 transition-colors">
-                    <h3 className="text-xl font-bold text-brand-red mb-2">차차 무료 워크샵</h3>
-                    <p className="text-gray-300 font-medium">17:00 ~ 18:00</p>
+                    <h3 className="text-xl font-bold text-brand-red mb-2">바차타 연데</h3>
+                    <p className="text-gray-300 font-medium">16:30 ~ 18:00</p>
                     <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
                       <i className="fas fa-map-pin"></i> 맘보 바차타홀
                     </p>

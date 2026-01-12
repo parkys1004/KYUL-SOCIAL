@@ -31,7 +31,7 @@ const LocationContact: React.FC = () => {
               <p className="text-gray-300 mt-2 text-lg">부산 부산진구 동천로 4</p>
               
               <a 
-                href="https://map.naver.com" 
+                href="https://naver.me/Gia4OUNu" 
                 target="_blank" 
                 rel="noreferrer"
                 className="mt-8 px-8 py-3 bg-white text-brand-dark font-bold rounded-full transform hover:scale-105 hover:bg-brand-red hover:text-white transition-all shadow-lg flex items-center gap-2"

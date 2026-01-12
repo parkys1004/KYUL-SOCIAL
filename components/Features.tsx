@@ -48,9 +48,9 @@ const Features: React.FC = () => {
             delay="200ms"
           />
           <FeatureCard 
-            icon="fa-chalkboard-teacher"
-            title="무료 워크샵"
-            desc="소셜 전, 1시간 동안 진행되는 알찬 차차 무료 워크샵으로 실력을 업그레이드하세요."
+            icon="fa-users"
+            title="바차타 연데"
+            desc="소셜 전 16:30부터 18:00까지! 자유롭게 연습하고 교류하는 바차타 연데가 진행됩니다."
             gradient="from-purple-500 to-indigo-600"
             delay="400ms"
           />
