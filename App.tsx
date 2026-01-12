@@ -6,6 +6,7 @@ import Schedule from './components/Schedule';
 import LocationContact from './components/LocationContact';
 import Footer from './components/Footer';
 import Toast from './components/Toast';
+import AnnouncementModal from './components/AnnouncementModal';
 
 const App: React.FC = () => {
   const [showToast, setShowToast] = useState(false);
@@ -54,6 +55,7 @@ const App: React.FC = () => {
       </main>
       <Footer />
       <Toast show={showToast} message="계좌번호가 복사되었습니다!" />
+      <AnnouncementModal />
     </div>
   );
 };
