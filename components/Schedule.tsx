@@ -41,7 +41,7 @@ const Schedule: React.FC<ScheduleProps> = ({ onCopy }) => {
                   <div className="bg-white/5 p-6 rounded-2xl flex-1 border border-white/5 group-hover:bg-white/10 transition-colors">
                     <h3 className="text-xl font-bold text-brand-red mb-2">바차타 연데</h3>
                     <p className="text-gray-300 font-medium">16:30 ~ 18:00</p>
-                    <p className="text-sm text-gray-500 mt-2 flex items-center gap-2">
+                    <p className="text-sm text-white mt-2 flex items-center gap-2">
                       <i className="fas fa-map-pin"></i> 맘보 바차타홀
                     </p>
                   </div>
@@ -55,7 +55,7 @@ const Schedule: React.FC<ScheduleProps> = ({ onCopy }) => {
                   <div className="bg-white/5 p-6 rounded-2xl flex-1 border border-white/5 group-hover:bg-white/10 transition-colors">
                     <h3 className="text-xl font-bold text-white mb-2">KYUL SOCIAL START</h3>
                     <p className="text-gray-300 font-medium">18:00 ~ 21:00</p>
-                    <p className="text-sm text-gray-500 mt-2">즐거운 소셜 타임 (살사, 바차타, 차차)</p>
+                    <p className="text-sm text-white mt-2">즐거운 소셜 타임 (살사, 바차타, 차차)</p>
                   </div>
                 </div>
               </div>
