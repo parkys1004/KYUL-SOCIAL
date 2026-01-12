@@ -109,7 +109,9 @@ const Schedule: React.FC<ScheduleProps> = ({ onCopy }) => {
                     <p className="text-sm text-gray-400">부산은행 (예금주: 이경훈)</p>
                   </div>
                 </div>
-                <p className="text-xs text-gray-500 mt-4 text-center opacity-60">* 카카오톡 입금도 가능합니다.</p>
+                <p className="text-sm text-white font-bold mt-4 text-center tracking-wide flex items-center justify-center gap-2">
+                  <i className="fas fa-comment"></i> * 카카오톡 입금도 가능합니다.
+                </p>
               </div>
             </div>
 
