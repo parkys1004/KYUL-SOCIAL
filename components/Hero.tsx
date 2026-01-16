@@ -25,30 +25,30 @@ const Hero: React.FC = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
         }`}
       >
-        <div className="inline-flex items-center gap-2 py-1 px-4 rounded-full bg-brand-red/10 text-brand-red border border-brand-red/30 text-sm font-bold mb-8 backdrop-blur-md animate-pulse-slow">
+        <div className="inline-flex items-center gap-2 py-1 px-3 sm:px-4 rounded-full bg-brand-red/10 text-brand-red border border-brand-red/30 text-xs sm:text-sm font-bold mb-6 sm:mb-8 backdrop-blur-md animate-pulse-slow">
           <i className="fas fa-calendar-check"></i>
           EVERY SUNDAY NIGHT
         </div>
         
-        <h1 className="text-5xl md:text-8xl font-black mb-6 leading-tight font-dodum tracking-tight drop-shadow-2xl">
+        <h1 className="text-4xl sm:text-6xl md:text-8xl font-black mb-4 sm:mb-6 leading-tight font-dodum tracking-tight drop-shadow-2xl">
           살사인들의<br/>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-orange-500">
             썬데이 결소셜
           </span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-gray-300 mb-12 font-light max-w-2xl mx-auto leading-relaxed">
-          매주 일요일, <span className="text-white font-bold">살사·바차타·차차</span>로<br className="md:hidden"/> 한 주의 마무리를 뜨겁게 장식하세요.
+        <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 sm:mb-12 font-light max-w-2xl mx-auto leading-relaxed break-keep">
+          매주 일요일, <span className="text-white font-bold">살사·바차타·차차</span>로<br className="hidden md:block"/> 한 주의 마무리를 뜨겁게 장식하세요.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-6 justify-center">
-          <a href="#schedule" className="group relative px-8 py-4 bg-brand-red text-white font-bold rounded-full overflow-hidden shadow-[0_0_20px_rgba(229,9,20,0.4)] transition-transform hover:scale-105">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center w-full sm:w-auto px-4 sm:px-0">
+          <a href="#schedule" className="group relative px-8 py-4 bg-brand-red text-white font-bold rounded-full overflow-hidden shadow-[0_0_20px_rgba(229,9,20,0.4)] transition-transform hover:scale-105 w-full sm:w-auto flex justify-center items-center">
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-red-600 to-orange-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
             <span className="relative flex items-center justify-center gap-2">
               스케줄 확인하기 <i className="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
             </span>
           </a>
-          <a href="#location" className="px-8 py-4 bg-white/5 border border-white/20 hover:bg-white hover:text-brand-dark text-white font-bold rounded-full transition-all backdrop-blur-sm hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+          <a href="#location" className="px-8 py-4 bg-white/5 border border-white/20 hover:bg-white hover:text-brand-dark text-white font-bold rounded-full transition-all backdrop-blur-sm hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] w-full sm:w-auto">
             오시는 길
           </a>
         </div>

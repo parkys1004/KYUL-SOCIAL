@@ -7,16 +7,16 @@ const FeatureCard = ({ icon, title, desc, delay, gradient }: { icon: string; tit
   return (
     <div 
       ref={ref}
-      className={`glass-card p-10 rounded-3xl text-center group hover:-translate-y-4 transition-all duration-500 border border-white/5 hover:border-white/20 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] transform ${
+      className={`glass-card p-6 sm:p-10 rounded-3xl text-center group hover:-translate-y-4 transition-all duration-500 border border-white/5 hover:border-white/20 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] transform ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
       }`}
       style={{ transitionDelay: delay }}
     >
-      <div className={`w-20 h-20 bg-gradient-to-br ${gradient} rounded-2xl rotate-3 group-hover:rotate-12 transition-transform duration-500 flex items-center justify-center mx-auto mb-8 shadow-xl`}>
-        <i className={`fas ${icon} text-3xl text-white`}></i>
+      <div className={`w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br ${gradient} rounded-2xl rotate-3 group-hover:rotate-12 transition-transform duration-500 flex items-center justify-center mx-auto mb-6 sm:mb-8 shadow-xl`}>
+        <i className={`fas ${icon} text-2xl sm:text-3xl text-white`}></i>
       </div>
-      <h3 className="text-2xl font-bold mb-4 font-dodum group-hover:text-brand-red transition-colors">{title}</h3>
-      <p className="text-gray-400 leading-relaxed group-hover:text-gray-200 transition-colors">
+      <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 font-dodum group-hover:text-brand-red transition-colors">{title}</h3>
+      <p className="text-sm sm:text-base text-gray-400 leading-relaxed group-hover:text-gray-200 transition-colors break-keep">
         {desc}
       </p>
     </div>
@@ -25,14 +25,14 @@ const FeatureCard = ({ icon, title, desc, delay, gradient }: { icon: string; tit
 
 const Features: React.FC = () => {
   return (
-    <section id="about" className="py-32 bg-brand-dark relative scroll-mt-24">
+    <section id="about" className="py-20 sm:py-32 bg-brand-dark relative scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 font-dodum">Why KYUL SOCIAL?</h2>
-          <div className="w-24 h-1.5 bg-gradient-to-r from-brand-red to-orange-500 mx-auto rounded-full"></div>
+        <div className="text-center mb-12 sm:mb-20">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 font-dodum">Why KYUL SOCIAL?</h2>
+          <div className="w-20 sm:w-24 h-1.5 bg-gradient-to-r from-brand-red to-orange-500 mx-auto rounded-full"></div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           <FeatureCard 
             icon="fa-glass-cheers"
             title="포트럭 파티 (Potluck)"
