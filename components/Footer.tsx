@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
+  const openAnnouncement = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.dispatchEvent(new Event('show-announcement-modal'));
+  };
+
   return (
     <footer className="bg-black py-12 border-t border-white/10 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
@@ -24,9 +29,17 @@ const Footer: React.FC = () => {
             </a>
         </div>
 
-        <p className="text-gray-700 text-xs tracking-widest uppercase">
+        <p className="text-gray-700 text-xs tracking-widest uppercase mb-4">
           &copy; 2024 Kyul Social. All rights reserved.
         </p>
+
+        {/* Event Management Trigger */}
+        <button 
+          onClick={openAnnouncement}
+          className="text-[10px] text-gray-600 hover:text-brand-red transition-colors border-b border-gray-800 hover:border-brand-red pb-0.5"
+        >
+          이벤트 공지 다시보기
+        </button>
       </div>
     </footer>
   );
