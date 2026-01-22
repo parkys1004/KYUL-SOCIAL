@@ -26,8 +26,8 @@ const Hero: React.FC = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
         }`}
       >
-        <div className="inline-flex items-center gap-2 py-1 px-3 sm:px-4 rounded-full bg-brand-red/10 text-brand-red border border-brand-red/30 text-xs sm:text-sm font-bold mb-6 sm:mb-8 backdrop-blur-md animate-pulse-slow">
-          <i className="fas fa-calendar-check"></i>
+        <div className="inline-flex items-center gap-2 py-1 px-3 sm:px-4 rounded-full bg-brand-red/10 text-white border border-brand-red/30 text-xs sm:text-sm font-bold mb-6 sm:mb-8 backdrop-blur-md animate-pulse-slow">
+          <i className="fas fa-calendar-check text-brand-red"></i>
           EVERY SUNDAY NIGHT
         </div>
         
