@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(20, 20, 20, 1)), url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FE4vHA%2FdJMcagxvS7u%2FAAAAAAAAAAAAAAAAAAAAAItIuiS8AJkvQyAD2XDXVnHIVSGh2MiLYDpmp_7YlzL8%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1769871599%26allow_ip%3D%26allow_referer%3D%26signature%3DXdE5sLSp58J7wvqjbjMjAyuvhBs%253D')`,
           backgroundAttachment: 'fixed',
-          backgroundPosition: 'center 25%'
+          backgroundPosition: 'center 15%'
         }}
       ></div>
 
