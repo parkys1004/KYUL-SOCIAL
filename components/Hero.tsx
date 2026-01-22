@@ -8,10 +8,11 @@ const Hero: React.FC = () => {
     <header className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background with Parallax effect simulation */}
       <div 
-        className="absolute inset-0 z-0 bg-cover bg-center transform scale-105"
+        className="absolute inset-0 z-0 bg-cover transform scale-105"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(20, 20, 20, 1)), url('https://images.unsplash.com/photo-1547153760-18fc86324498?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(20, 20, 20, 1)), url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FE4vHA%2FdJMcagxvS7u%2FAAAAAAAAAAAAAAAAAAAAAItIuiS8AJkvQyAD2XDXVnHIVSGh2MiLYDpmp_7YlzL8%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1769871599%26allow_ip%3D%26allow_referer%3D%26signature%3DXdE5sLSp58J7wvqjbjMjAyuvhBs%253D')`,
           backgroundAttachment: 'fixed',
+          backgroundPosition: 'center 25%'
         }}
       ></div>
 
