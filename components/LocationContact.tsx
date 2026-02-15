@@ -53,7 +53,7 @@ const LocationContact: React.FC = () => {
                   <i className="fas fa-phone-alt text-lg sm:text-2xl"></i>
                 </div>
                 <div className="text-left">
-                  <p className="text-xs sm:text-sm text-gray-400 font-bold mb-1">문의 (결)</p>
+                  <p className="text-xs sm:text-sm text-gray-400 font-bold mb-1">문의 (썬데이 바차타)</p>
                   <a href="tel:010-3563-7749" className="text-xl sm:text-2xl font-black hover:text-brand-red transition-colors tracking-wide">010-3563-7749</a>
                 </div>
               </div>

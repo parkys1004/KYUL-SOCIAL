@@ -28,7 +28,7 @@ const Features: React.FC = () => {
     <section id="about" className="py-20 sm:py-32 bg-brand-dark relative scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 font-dodum">Why KYUL SOCIAL?</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 font-dodum">Why SUNDAY BACHATA?</h2>
           <div className="w-20 sm:w-24 h-1.5 bg-gradient-to-r from-brand-red to-orange-500 mx-auto rounded-full"></div>
         </div>
         

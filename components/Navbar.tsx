@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
               <i className="fas fa-music text-white text-lg"></i>
             </div>
             <span className="font-black text-2xl tracking-wider font-dodum text-white group-hover:text-brand-red transition-colors duration-300">
-              KYUL SOCIAL
+              SUNDAY BACHATA
             </span>
           </div>
           

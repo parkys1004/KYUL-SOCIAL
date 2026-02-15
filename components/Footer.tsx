@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
         <div className="flex items-center justify-center gap-3 mb-6">
            <i className="fas fa-music text-brand-red text-xl"></i>
-           <p className="text-3xl font-dodum font-bold tracking-wider text-white">KYUL SOCIAL</p>
+           <p className="text-3xl font-dodum font-bold tracking-wider text-white">SUNDAY BACHATA</p>
         </div>
         
         <p className="text-gray-400 text-sm mb-8 leading-loose max-w-md mx-auto">
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
         </div>
 
         <p className="text-gray-700 text-xs tracking-widest uppercase mb-4">
-          &copy; 2024 Kyul Social. All rights reserved.
+          &copy; 2024 Sunday Bachata. All rights reserved.
         </p>
 
         {/* Event Management Trigger */}

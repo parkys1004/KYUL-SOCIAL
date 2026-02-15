@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
         <h1 className="text-4xl sm:text-6xl md:text-8xl font-black mb-4 sm:mb-6 leading-tight font-dodum tracking-tight drop-shadow-2xl">
           살사인들의<br/>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-orange-500">
-            썬데이 결소셜
+            썬데이 바차타
           </span>
         </h1>
         

@@ -53,7 +53,7 @@ const Schedule: React.FC<ScheduleProps> = ({ onCopy }) => {
                     18:00
                   </div>
                   <div className="bg-white/5 p-5 sm:p-6 rounded-2xl flex-1 border border-white/5 group-hover:bg-white/10 transition-colors">
-                    <h3 className="text-lg sm:text-xl font-bold text-white mb-2">KYUL SOCIAL START</h3>
+                    <h3 className="text-lg sm:text-xl font-bold text-white mb-2">SUNDAY BACHATA START</h3>
                     <p className="text-gray-300 font-medium text-sm sm:text-base">18:00 ~ 21:00</p>
                     <p className="text-xs sm:text-sm text-white mt-2">즐거운 소셜 타임 (살사, 바차타, 차차)</p>
                   </div>
